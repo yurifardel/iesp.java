@@ -38,7 +38,10 @@ public class RegisterController {
   @Override
   public String toString(){
     return(
-      "Cadastro geral: \n" + name + "\n" + age + "\n" + address
+      "Cadastro geral: \n" + 
+      getName() + "\n" + 
+      getAge() + "\n" + 
+      getAddress()
     );
   
   }
