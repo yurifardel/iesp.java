@@ -1,9 +1,7 @@
 package controllers;
 
-import controllers.*;
 
 public class FuncionarioController extends RegisterController{
-
   private double salary;
 
   public FuncionarioController(String name, String address, int age, double salary){
