@@ -7,18 +7,17 @@ public class CPFVoluntarioController extends RegisterController {
   public CPFVoluntarioController(String cpf, String name, int age, String address){
     super(name, age, address);
     this.cpf = cpf;
-
-    if(this.cpf == ""){
-      return;
-    }
-
-    if(this.cpf.length() != 11){
-      return;
-    }
-
   }
 
   public String getCPF(){
+    if(this.cpf == ""){
+      return "Informe seu cpf";
+    }
+
+    if(this.cpf.length() != 11){
+      return "informe seu cpf";
+    }
+
     return cpf;
   }
 
