@@ -4,6 +4,7 @@ import java.util.Date;
 
 
 public class DonationController {
+  Date data = new Date();
 
   private String entrega;
   private double valor;
@@ -58,8 +59,7 @@ public class DonationController {
   public String toString(){
 
     if(this.cpf != ""){
-      CPFVoluntarioController cpfVoluntario;
-
+      
       return "cpf";
     }else{
       return(
