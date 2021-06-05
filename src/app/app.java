@@ -1,6 +1,6 @@
 package app;
 
-import controllers.*;
+import auth.controllers.*;
 
 class App {
   public static RegisterController register = new RegisterController("yuri regis nascimento", 24, "cabedelo");
@@ -9,17 +9,18 @@ class App {
   public static CPFVoluntarioController cpf = new CPFVoluntarioController("404.504.302-23", "Yuri", 24, "Cabedelo");
   public static CNPJVoluntarioController cnpj =  new CNPJVoluntarioController("404.504.302-23", "AppTech", 0, "Joao pessoa");
   public static DonationController donation = new DonationController("em maos", 2000, "1323232323", "");
+  public static EventoController evento = new EventoController("EVENTOCODIGO", "VACINAÇÃO CONTRA A COVID", 10000);
+  
   public static void main(String[] args){
     try {
+      
       // System.out.println(register);
       // System.out.println(login);
       // System.out.println(funcionario);
       // System.out.println(cpf);
       // System.out.println(cnpj);
-      System.out.println(donation);
-
-      
-
+      // System.out.println(donation);
+      System.out.println(evento);
 
     } catch (Exception err) {
       System.out.println(err);
