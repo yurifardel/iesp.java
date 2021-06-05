@@ -1,6 +1,12 @@
 package auth.controllers;
 
 
+/**
+ * @comment arquivo de cadastro do funcionario
+ * @version 0.0.1
+ * @author grupo...
+ */
+
 public class FuncionarioController extends RegisterController{
   private double salary;
 

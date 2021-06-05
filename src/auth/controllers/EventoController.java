@@ -2,6 +2,13 @@ package auth.controllers;
 
 import java.util.Date;
 
+
+/**
+ * @comment arquivo de cadastro de evento 
+ * @version 0.0.1
+ * @author grupo...
+ */
+
 public class EventoController {
   private String codigo;
   private String evento;

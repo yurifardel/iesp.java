@@ -1,5 +1,12 @@
 package auth.controllers;
 
+
+/**
+ * @comment arquivo de login do usuario
+ * @version 0.0.1
+ * @author grupo...
+ */
+
 public class LoginUserController {
   private String user;
   private String password;

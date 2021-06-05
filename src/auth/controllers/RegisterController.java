@@ -1,5 +1,12 @@
 package auth.controllers;
 
+
+/**
+ * @comment arquivo de registro
+ * @version 0.0.1
+ * @author grupo...
+ */
+
 public class RegisterController {
   private String name;
   private int age;
