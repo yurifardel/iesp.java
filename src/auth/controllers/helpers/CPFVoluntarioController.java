@@ -1,4 +1,6 @@
-package auth.controllers;
+package auth.controllers.helpers;
+
+import auth.controllers.RegisterController;
 
 public class CPFVoluntarioController extends RegisterController {
   

@@ -1,6 +1,8 @@
 package app;
 
 import auth.controllers.*;
+import auth.controllers.helpers.CNPJVoluntarioController;
+import auth.controllers.helpers.CPFVoluntarioController;
 
 class App {
   public static RegisterController register = new RegisterController("yuri regis nascimento", 24, "cabedelo");
@@ -13,7 +15,7 @@ class App {
   
   public static void main(String[] args){
     try {
-      
+
       // System.out.println(register);
       // System.out.println(login);
       // System.out.println(funcionario);
